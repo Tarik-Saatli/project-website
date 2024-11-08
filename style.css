@@ -1,0 +1,266 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #333;
+}
+
+nav .menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.menu > li {
+    position: relative;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    list-style-type: none;
+}
+
+.menu > li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    width: 200px;
+}
+
+.submenu a {
+    padding: 10px;
+    color: #ddd;
+}
+
+.submenu a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.daddy{
+    color: #ddd;
+}
+.daddy{
+  text-align: center      
+}
+.h1bsa{
+    margin-top: 100px;
+background-color: #333;
+color: #ddd;
+}
+
+.canvas{
+    margin-top: 100px;
+}
+.eduarte{
+    margin-top: 100px;
+}
+.opleidingswijzer{
+    margin-top: 100px;
+}
+.locatiegids{
+    margin-top: 100px;
+}
+.begeleiding{
+    margin-top: 100px;
+}
+.software{
+    margin-top: 100px;
+}
+.examenplan{
+    margin-top: 100px;
+}
+.ouderspreekavonden{
+    margin-top: 100px;
+}
+.bsa2 {
+    background: url(background.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif; /* Verander het lettertype van de hele pagina */
+}
+
+
+
+.{
+    background
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h1index{
+position: absolute;
+left: 50px;
+top: 280px;
+background-color: #333;
+color: #ddd;
+font-size: 1.5rem;
+}
+.pindex{
+    background-color: #333;
+    color: #ddd;
+}
+.bastekst{
+    background-color: #333;
+color: #ddd;
+}
+.indeximg{
+
+}
+
+.homepageimg{
+    position: absolute;
+    right: 170px;
+    top: 280px;
+}
+.canvasimg {
+    background: url(image.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif; 
+}
+.canvas1{
+   position: absolute;
+   left: 10px;
+color: #ffffff;
+background-color: #333;
+}
+.wijzerimg {
+    background: url(wegwijzer.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif; 
+}
+.wijzerp{
+    background-color: #333;
+color: #ddd;
+}
+.eduarteimg {
+    background: url(Scrrenshots-studentenapp.webp) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif; 
+}
+.eduartep{
+    background-color: #333;
+    color: #ddd;
+}
+.gidsimg {
+    background: url(image7.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif; 
+}
+.gidsp{
+    background-color: #333;
+    color: #ddd;
+}
+.begeleidingimg {
+    background: url(begeleiding.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif; 
+}
+.begeleidingp{
+    background-color: #333;
+    color: #ddd;
+}
+.softwareimg {
+    background: url(software-1-640x360.webp) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif; 
+}
+.softwarep{
+    background-color: #333;
+    color: #ddd;
+}
+.software{
+    color: #ddd;
+}
+.sem {
+    background: url(sem.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif; 
+}
+.tarik {
+    background: url(tarik.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif; 
+}
+.examenimg {
+    background: url(image.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif; 
+}
+.examenp{
+    background-color: #333;
+    color: #ddd;
+}
+.examenplan{
+    color: #ddd;
+}
+.ouder {
+    background: url(image11.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif; 
+}
+.examenplanp{
+    background-color: #333;
+}
+.ouders{
+    background-color: #333;
+}
+.ouders{
+    color: #ddd;
+}
+
